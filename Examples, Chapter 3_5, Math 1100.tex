@@ -137,7 +137,53 @@
     \item[]<3->\[ \Rightarrow -|4x+3|=-3 \]
     \item[]<4-> \[ \Rightarrow |4x+3|=3 \]
     \item[]<5-> \[ \Rightarrow 4x+3=3, 4x+3=-3 \]
-    \item[]<6-> \[ \Rightarrow x=0, x=-\frac{3}{2}. \] 
+    \item[]<6-> \[ \Rightarrow x=0, x=-\frac{3}{2}. \]
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{More About Absolute Value Equations}
+  \begin{enumerate}
+    \item[]<1-> When $a=0, |x|=a$ is equivalent to $x=0$.
+    \item[]<2-> Note that for $a<0, |x|=a$ has \emph{no} solution,
+    \item[]<3-> because the absolute value of an expression is never negative.
+    \item[]<4-> The solution set is the \emph{empty set}, denoted $\emptyset$.
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Example}
+  \begin{enumerate}
+    \item[]<1-> Solve \[ |x-4|+3=0. \]
+    \item[]<2-> \textsc{Solution:}
+    \item[]<3-> \[ \Rightarrow |x-4|=-3,\]
+    \item[]<4-> but this equation has no solution,
+    \item[]<5-> i.e. the solution set is $\emptyset$.
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Inequalities with Absolute Value}
+  \begin{enumerate}
+    \item[]<1->Inequalities sometimes contain absolute--value notation.
+    \item[]<2->The following properties are used to solve them.
+    \item[]<3->For $a>0$ and an algebraic expression $x$:
+    \item[]<4->
+    \begin{align*}
+      |x|<a & \text{ is equivalent to } -a<x<a, \\
+      |x|>a & \text{ is equivalent to } x<-a \text{ or }x>a.
+    \end{align*}
+    \item[]<5->Similar statements hold for $|x| \leq a$ and $|x| \geq a$.
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Inequalities with Absolute Value (cont.)}
+  \begin{enumerate}
+    \item[]<1->For example,
+    \item[]<2->$|x|<3$ is equivalent to $-3<x<3$.
+    \item[]<3->$|y| \geq 1$ is equivalent to $y \leq -1$ or $y \geq 1$.
+    \item[]<4->$|2x+3| \leq 4$ is equivalent o $-4 \leq 2x+3 \leq 4$.
   \end{enumerate}
 \end{frame}
 
@@ -146,7 +192,9 @@
 	\begin{enumerate}
 		\item[]<1-> Solve \[ |x|<5. \]
 		\item[]<2->\textsc{Solution:}
-		\item[]<3->
+		\item[]<3-> \[ \Rightarrow -5<x<5, \]
+    \item[]<4-> \[ (-5, 5).\]
+    \item[]<5->
 \begin{center}
     \begin{tikzpicture}[scale=0.6]
 \draw[latex-latex] (-6,0) -- (6,0) ; %edit here for the axis
@@ -165,9 +213,11 @@
 \begin{frame}
 	\frametitle{Example}
 	\begin{enumerate}
-		\item[]<1-> Solve \[ |x|<5. \]
+		\item[]<1-> Solve \[ |x| \geq 6. \]
 		\item[]<2->\textsc{Solution:}
-		\item[]<3->
+		\item[]<3-> \[ \Rightarrow x \leq -6 \text{ or } x \geq 6, \]
+    \item[]<4-> \[ (-\infty, -6] \bigcup [6, \infty). \]
+    \item[]<5->
 \begin{center}
     \begin{tikzpicture}[scale=0.35]
 \draw[latex-latex] (-10,0) -- (10,0) ; %edit here for the axis
@@ -187,9 +237,11 @@
 \begin{frame}
 	\frametitle{Example}
 	\begin{enumerate}
-		\item[]<1-> Solve \[ |x|<5. \]
+		\item[]<1-> Solve \[ |x+6| \leq 10. \]
 		\item[]<2->\textsc{Solution:}
-		\item[]<3->
+		\item[]<3-> \[ \Rightarrow -10 \leq x+6 \leq 10 \]
+    \item[]<4-> \[ \Rightarrow -16 \leq x \leq 4, [-16, 4]. \]
+    \item[]<5->
 \begin{center}
     \begin{tikzpicture}[scale=0.35]
 \draw[latex-latex] (-17,0) -- (5,0) ; %edit here for the axis
@@ -208,9 +260,11 @@
 \begin{frame}
 	\frametitle{Example}
 	\begin{enumerate}
-		\item[]<1-> Solve \[ |x|<5. \]
+		\item[]<1-> Solve \[ |x+7|>10. \]
 		\item[]<2->\textsc{Solution:}
-		\item[]<3->
+		\item[]<3-> \[ \Rightarrow x+7<-10 \text{ or } x+7>10 \]
+    \item[]<4-> \[ \Rightarrow x<-17 \text{ or }x>3, (-\infty, -17) \bigcup (3, \infty). \]
+    \item[]<5->
 \begin{center}
     \begin{tikzpicture}[scale=0.3]
 \draw[latex-latex] (-20,0) -- (5,0) ; %edit here for the axis
@@ -230,9 +284,12 @@
 \begin{frame}
 	\frametitle{Example}
 	\begin{enumerate}
-		\item[]<1-> Solve \[ |x|<5. \]
+		\item[]<1-> Solve \[ |3x+2|<5. \]
 		\item[]<2->\textsc{Solution:}
-		\item[]<3->
+		\item[]<3-> \[ \Rioghtarrow -5<3x+2<5 \]
+    \item[]<4-> \[ \Rightarrow -7<3x<3 \]
+    \item[]<5-> \[ \Rightarrow -\frac{7}{3}<x<1, \left(-\frac{7}{3}, 1 \right).\]
+    \item[]<6->
 \begin{center}
     \begin{tikzpicture}[scale=1.0]
 \draw[latex-latex] (-4,0) -- (3,0) ; %edit here for the axis
@@ -251,9 +308,12 @@
 \begin{frame}
 	\frametitle{Example}
 	\begin{enumerate}
-		\item[]<1-> Solve \[ |x|<5. \]
+		\item[]<1-> Solve \[ |5-2x| \geq 1. \]
 		\item[]<2->\textsc{Solution:}
-		\item[]<3->
+		\item[]<3-> \[ \Rightarrow 5-2x \leq -1 \text{ or } 5-2x \geq 1\]
+    \item[]<4-> \[ \Rightarrow -2x \leq -6 \text{ or }-2x \geq -4 \]
+    \item[]<5-> \[ \Rightarrow x \geq 3 \text{ or } x \leq 2, (-\infty,2] \bigcup [3, \infty). \]
+    \item[]<6->
 \begin{center}
     \begin{tikzpicture}[scale=0.65]
 \draw[latex-latex] (-6,0) -- (5,0) ; %edit here for the axis
